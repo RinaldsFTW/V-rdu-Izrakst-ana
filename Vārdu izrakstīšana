@@ -1,0 +1,4 @@
+skolēni = [ {'name': 'Alekss', 'surname': 'Bērziņš'}, {'name': 'Anna', 'surname': 'Rock'}]
+
+for skolēns in skolēni:
+    print(f"{skolēns['name']} {skolēns['surname']}")
