@@ -1,4 +1,16 @@
+#1)
+
 skolēni = [ {'name': 'Alekss', 'surname': 'Bērziņš'}, {'name': 'Anna', 'surname': 'Rock'}]
 
 for skolēns in skolēni:
     print(f"{skolēns['name']} {skolēns['surname']}")
+    
+ #2)
+ 
+ import json
+file = open('prog1-0010/students.json', 'r')
+data = json.load(file)
+file.close()
+
+for student in data['students']:
+  print(f"{student['first name']} {student['last name']}")
